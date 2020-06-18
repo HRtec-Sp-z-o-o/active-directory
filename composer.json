@@ -12,10 +12,6 @@
       "email": "kschroeder@magiumlib.com"
     }
   ],
-  "repositories": [{
-    "type": "vcs",
-    "url": "https://github.com/RidgePL/configuration-manager"
-  }],
   "autoload": {
     "psr-4": {
       "Magium\\ActiveDirectory\\": "src"
@@ -31,10 +27,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^6.0 | ^7.0",
-    "magium/magium": "~1.1"
   },
   "require": {
-    "magium/configuration-manager": "dev-master",
     "league/oauth2-client": "^1.4",
     "microsoft/microsoft-graph": "^1.0",
     "zendframework/zend-psr7bridge": "^0.2"
